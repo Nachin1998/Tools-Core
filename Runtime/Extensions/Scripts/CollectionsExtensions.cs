@@ -10,6 +10,7 @@ namespace Nach.Tools.Extensions.Collections
         public static int GetRandomIndex<T>(this IEnumerable<T> collection)
         {
             int randomIndex = Random.Range(0, collection.Count());
+
             return randomIndex;
         }
 
