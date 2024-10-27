@@ -9,6 +9,9 @@
     "tools"
   ],
   "category": "editor extensions",
+  "dependencies": {
+    "com.dbrizov.naughtyattributes": "2.1.4"
+  },
   "author": {
     "name": "Ignacio Fernandez Lemos",
     "url": "https://github.com/Nachin1998"
