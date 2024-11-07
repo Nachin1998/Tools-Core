@@ -10,19 +10,10 @@
   ],
   "category": "editor extensions",
   "dependencies": {
-    "com.dbrizov.naughtyattributes": "https://github.com/dbrizov/NaughtyAttributes.git#2.1.4"
+    "com.dbrizov.naughtyattributes": "2.1.4"
   },
   "author": {
     "name": "Ignacio Fernandez Lemos",
     "url": "https://github.com/Nachin1998"
-  },
-  "scopedRegistries": [
-    {
-      "name": "package.openupm.com",
-      "url": "https://package.openupm.com",
-      "scopes": [
-        "com.dbrizov.naughtyattributes"
-      ]
-    }
-  ]
+  }
 }
