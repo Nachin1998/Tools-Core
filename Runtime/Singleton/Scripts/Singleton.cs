@@ -12,9 +12,13 @@ namespace Nach.Tools.Singleton
             {
                 if (instance == null)
                 {
-                    Type singletonType = typeof(T);
-                    instance = new GameObject(singletonType.Name, singletonType).GetComponent<T>();
-                    DontDestroyOnLoad(instance.gameObject);
+                    instance = FindObjectOfType<T>();
+                    if (instance == null)
+                    {
+                        Type singletonType = typeof(T);
+                        instance = new GameObject(singletonType.Name, singletonType).GetComponent<T>();
+                        DontDestroyOnLoad(instance.gameObject);
+                    }
                 }
 
                 return instance;
